@@ -1,0 +1,67 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        .top-bar {
+            background: #20242e;
+            color:white;
+            padding: 10px 0;
+        }
+        .i{
+            color: #f04e30;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .logo {
+            width: 80px;
+            height: 30px;
+        }
+        .hero {
+            background: url('./imagenes/images/fondo.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            font-family: 'Lucida Grande';
+        }
+        
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Efecto oscurecido */
+        }
+        
+        .btn-primary {
+            background-color: #f04e30;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #f04e30;
+        }
+        .services .card {
+            border: none;
+            text-align: left;
+            padding: 20px;
+        }
+        .services .icon {
+            font-size: 2rem;
+            color: #f04e30;
+        }
+        .about-img {
+            max-width: 70%;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
