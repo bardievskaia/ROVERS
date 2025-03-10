@@ -51,10 +51,12 @@ body {
             border: none;
             text-align: left;
             padding: 20px;
+            font-size: 20px;
         }
         .services .icon {
-            font-size: 2rem;
+            font-size: 3rem;
             color: #f04e30;
+            padding-bottom: 2rem;
         }
         .about-img {
             max-width: 70%;
@@ -64,4 +66,7 @@ body {
             .hero h1 {
                 font-size: 2rem;
             }
+        }
+        .col-md-6{
+            font-size: 15px;
         }
