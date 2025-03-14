@@ -1,5 +1,5 @@
 body {
-            font-family: Arial, sans-serif;
+            font-family: 'Lucida Grande';
         }
         .top-bar {
             background: #20242e;
@@ -27,7 +27,6 @@ body {
             justify-content: center;
             text-align: center;
             position: relative;
-            font-family: 'Lucida Grande';
         }
         
         .hero::before {
@@ -62,6 +61,7 @@ body {
             max-width: 70%;
             border-radius: 5px;
         }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem;
@@ -69,4 +69,19 @@ body {
         }
         .col-md-6{
             font-size: 15px;
+            text-align: left;
+        }
+
+        .decorative-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .line {
+            width: 50px;
+            height: 2px;
+            background-color: red;
+            margin: 0 10px;
         }
